@@ -1,0 +1,14 @@
+footer {
+    padding: 25px 20px;
+    background-color: $primary;
+    color: white;
+    .footer-content-container {
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .copyright,
+    .appby {
+        width: 100%;
+    }
+}

@@ -1,0 +1,9 @@
+@mixin mq($query) {
+	@media #{$query} { @content; };
+}
+@mixin mqmax($size) {
+	@media only screen and (max-width: $size) { @content; }
+}
+@mixin mqmin($size) {
+	@media only screen and (min-width: $size) { @content; }
+}
