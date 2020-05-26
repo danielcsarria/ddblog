@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import SyncLoader from 'react-spinners/SyncLoader';
-import BlogSingle from '../components/BlogSingle';
 import AuthorDetail from '../components/AuthorDetail';
 
 function Author({match}) {
@@ -50,37 +49,8 @@ function Author({match}) {
             </div>
         )
     }
-    return (
-        <div>
-            <AuthorDetail author={author} address={address} company={company}/>
-            <div className="related-blogs container small" >
-                <h2>
-                    Blogs by {author.name}
-                </h2>
-                <div className="related-blogs-container container flex column" >
-                    <div className="blog-container small flex column">
-                        {
-                            blogs.map((blog) => {
-                                if(blog.userId === author.id) {
-                                    return (
-                                        <BlogSingle 
-                                            key={blog.id} 
-                                            id={blog.id} 
-                                            title={blog.title} 
-                                            content={blog.body} 
-                                            author={blog.userId} 
-                                        />
-                                    )
-                                } else {
-                                    return null;
-                                }
-                            })
-                        }
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
+    
+    return <AuthorDetail author={author} address={address} company={company} blogs={blogs}/>
     
 }
 

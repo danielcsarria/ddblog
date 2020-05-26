@@ -51,9 +51,7 @@ function Blog({match}) {
         )
     }
 
-    return (
-        <BlogDetail blog={blog} comments={comments} author={author}/>
-    )
+    return <BlogDetail blog={blog} comments={comments} author={author}/>
     
 }
 
