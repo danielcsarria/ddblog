@@ -43,6 +43,7 @@
                 margin-bottom: 10px;
             }
             .blog-body {
+                font-size: 16px; 
                 .read-more {
                     margin-top: 10px;
                 }
@@ -65,10 +66,10 @@
 }
 
 .loader {
-    position: absolute;
+    position: relative;
     height: 100%;
     width: 100%;
     align-items: center;
     justify-content: center;
-    top: -177.5px;
+    height: 500px;
 }
