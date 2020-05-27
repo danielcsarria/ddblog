@@ -33,7 +33,7 @@ function Blog({match}) {
             const comments = await fetchComments.json();
             setComments(comments);
         }
-
+        
         fetchBlog();
         fetchComments();
 

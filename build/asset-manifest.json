@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ddblog/static/css/main.ad27ecc9.chunk.css",
+    "main.js": "/ddblog/static/js/main.ce49729d.chunk.js",
+    "main.js.map": "/ddblog/static/js/main.ce49729d.chunk.js.map",
+    "runtime-main.js": "/ddblog/static/js/runtime-main.ebaaf992.js",
+    "runtime-main.js.map": "/ddblog/static/js/runtime-main.ebaaf992.js.map",
+    "static/js/2.734fca8c.chunk.js": "/ddblog/static/js/2.734fca8c.chunk.js",
+    "static/js/2.734fca8c.chunk.js.map": "/ddblog/static/js/2.734fca8c.chunk.js.map",
+    "index.html": "/ddblog/index.html",
+    "precache-manifest.5a8957463c158c77c9a2aeaec523ce20.js": "/ddblog/precache-manifest.5a8957463c158c77c9a2aeaec523ce20.js",
+    "service-worker.js": "/ddblog/service-worker.js",
+    "static/css/main.ad27ecc9.chunk.css.map": "/ddblog/static/css/main.ad27ecc9.chunk.css.map",
+    "static/js/2.734fca8c.chunk.js.LICENSE.txt": "/ddblog/static/js/2.734fca8c.chunk.js.LICENSE.txt",
+    "static/media/logo.png": "/ddblog/static/media/logo.5feacd12.png",
+    "static/media/profile.png": "/ddblog/static/media/profile.8714556a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebaaf992.js",
+    "static/js/2.734fca8c.chunk.js",
+    "static/css/main.ad27ecc9.chunk.css",
+    "static/js/main.ce49729d.chunk.js"
+  ]
+}
